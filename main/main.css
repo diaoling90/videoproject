@@ -1,0 +1,27 @@
+.nomalbuttontext{
+    color: white;
+    background: transparent;
+    font-size: 1.7rem;
+    padding: 1rem 0.5rem;
+    line-height: 3.7rem;
+}
+.nomalimg{
+    background: darkgray;
+    width: 20rem;
+    height: 10rem;
+}
+.titletext{
+    color: black;
+    background: white;
+    font-size: 2rem;
+}
+.nomagin{
+    margin: 0rem;
+    border: 0rem;
+    padding: 0rem;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}

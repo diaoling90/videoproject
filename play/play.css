@@ -1,0 +1,18 @@
+.root{
+    position: relative;
+    width: 100%;
+    height: max-content
+}
+ .video_div{
+     margin: auto;
+     width: 60rem;
+     height: 40rem
+ }
+.video{
+   background-color: #07111b;
+    width: 60rem;
+    height: 40rem;
+}
+
+
+

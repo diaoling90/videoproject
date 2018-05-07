@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <link rel="stylesheet" href="admin.css" type="text/css" />
+    <title>视频上传</title>
+</head>
+<body style="margin: 0;padding: 0">
+<div id="root">
+    <div class="content">
+        <form id="upload" action="upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="videoUrl"  class="inputFile" accept="video/*"/><span style="color: red">请选择需要上传的视频</span><br>
+            <span style="color: red;text-align: start">请填写视频名称</span><br>
+            <textarea name="videoName" class="inputText"></textarea><br>
+            <span style="color: red">请填写视频描述</span><br>
+            <textarea name="videoDesc" class="inputText"></textarea><br>
+            <input type="file" name="videoImgUrl" id="file"><br><span style="color: red">请选择视频封面</span><br>
+            <input type="submit" value="提交" class="inputFile">
+        </form>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="admin.js"></script>
+</html>

@@ -1,0 +1,22 @@
+#root{
+    width: available;
+    height: available;
+    position: relative;
+}
+
+.content{
+    padding-top: 5rem;
+    margin: auto;
+    width: fit-content;
+}
+
+.inputFile{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.inputText{
+    margin-bottom: 5rem;
+    width: 40rem;
+    height: 20rem;
+}

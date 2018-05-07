@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="play.css" type="text/css"/>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <title>视频播放</title>
+</head>
+<body style="margin: 0;padding: 0">
+<div class="root">
+    <div class="video_div"  ng-app="video" ng-controller="video_ctrl">
+        <video class="video" id="video"></video>
+        <button style="margin: 2rem" id="videoPlay">播放</button>
+        <button style="margin: 2rem" id="videoPause">暂停</button>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="play.js"></script>
+</html>

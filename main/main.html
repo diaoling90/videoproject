@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>最新视频</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body style="margin: 0px;padding: 0px">
+<div style="position: relative">
+    <div  style="width:available;background-color: #07111b" >
+        <div id="logo" class="nomalbuttontext" style="display: inline-flex;font-size: 3rem;padding-left: 2rem">慕课网</div>
+        <div class="nomalbuttontext" style="float: right;margin-right: 2rem" >登录</div>
+        <div  class="nomalbuttontext" style="float: right">\</div>
+        <div class="nomalbuttontext" style="float: right;">注册</div>
+    </div>
+    <div style="display: flex;margin: auto;width: 60%;flex-wrap: wrap;justify-content: flex-start;" ng-app="mainApp" ng-controller="mainCtr" >
+        <div style="margin: 1rem;width: 20rem" ng-repeat="x in names" >
+            <a href="{{x.url}}" style="link: none;">
+                <img src="{{x.imgurl}}" class="nomalimg nomagin" style="border-radius: 1rem" >
+                <p class="titletext nomagin" >{{x.name}}</p>
+                <p class="titletext nomagin" >{{x.desc}}</p>
+            </a>
+        </div>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
